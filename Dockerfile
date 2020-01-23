@@ -1,7 +1,7 @@
 #
 # Builder
 #
-FROM https://github.com/iPersona/caddy-docker:builder as builder
+FROM https://github.com/iPersona/caddy-docker#:builder as builder
 
 ARG version="1.0.3"
 ARG plugins="git,cors,realip,expires,cache,cloudflare"
